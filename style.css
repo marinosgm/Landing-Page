@@ -1,32 +1,208 @@
-body{
+*{
     margin:0;
     padding: 0;
-    font-family: 'Roboto';
-    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
 }
 .Header{
+ 
+    height: 680px;
+    width: 100%;
+    background-color: #e2c2c1;
+    
+    
+    
+   
+}
+
+nav{
     display: flex;
-    height: 500px;
-    width: auto;
-    background-color: #1F2939;
-    padding: 30px 10%;
-    justify-content: flex-end;
+   justify-content: flex-end;
+   
+}
+
+
+  
+nav ul{
+    
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+    margin-right: 200px;
+    margin-top: 50px;
+    color: antiquewhite;
+    
+    
+    }
+
+  .logo{
+    
+    
+    font-size: 35px;
+    font-weight: bold;  
+    margin-right: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+   
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: auto;
+    gap: 30px;
+    
     
 }
 
-.hlogo{
 
-    color: white;
-    font-size: 25px;
-    font-weight: bold;  
-    margin-right: auto;
-
+.Signup{
+    background-color: #feffc1;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: white;
+    
 }
 
- .nav_links li {
+.huhi{
+    
+    height: 450px;
+    width:  450px;
+    margin-top: 80px;
+    margin-right: 250px;
+    border-radius: 20px;
 
-display: inline-block;
-padding-left: 25px;
-cursor: pointer;
+    
 }
+
+
+.introduction{
+
+color: black;
+    height: 500px;
+    width: 100%;
+    background-color:white ;
+    text-align: center;
+}
+
+
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 40px;   
+    
+    
+}
+.box{
+
+    max-width: 250px;
+
+}
+.lili,.Huhi,.rodolfo{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+
+.intro{
+    
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 30px;
+    
+}
+
+   .cats{
+    background-color: #feffc1;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .container3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+
+   .par{
+    max-width: 800px;
+   }
+
+   .author{
+    font-weight:bold;
+    text-align: right;
+    
+    
+   }
+
+   .sign{
+background-color: white;
+display: flex;
+height: 280px;
+width: 100%;
+justify-content: center;
+align-items: center;
+   }
+
+   .container4{
+
+    background-color: #e2c2c1;
+    height: 100px;
+    width: 800px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+   }
+ .btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 50px
+ } 
+
+ .text1{
+    margin-left: 50px;
+ }
+
+ footer{
+    display: flex;
+    background-color: #e2c2c1;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+
+
+
+ }
+
+
+    
+   
 
